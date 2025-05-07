@@ -2,18 +2,13 @@
 {
   "name": "whatsapp-bot-mxpremiumtv",
   "version": "1.0.0",
-  "description": "Bot de WhatsApp para Mxpremiumtv usando Baileys",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.0",
-    "express": "^4.18.2",
-    "qrcode": "^1.5.1",
-    "@hapi/boom": "^10.0.1"
-  },
-  "engines": {
-    "node": ">=18"
+    "baileys": "^6.7.6",
+    "pino": "^8.0.0"
   }
 }
+
