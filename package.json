@@ -7,8 +7,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "baileys": "^6.7.6",
-    "pino": "^8.0.0"
+    "@whiskeysockets/baileys": "^6.7.6",
+    "pino": "^8.0.0",
+    "@hapi/boom": "^10.0.0"
   }
 }
-
